@@ -5,7 +5,7 @@ import './nav.css'
 
 const Nav = () => {
     return (
-        <div style={{height: '300px', position: 'relative'}}>
+        <div className= "nav-container" style={{height: '300px', position: 'relative'}}>
             <Layout>
                 <Header transparent title="Adalberto May" style={{color: 'white'}}> 
                     <Navigation>

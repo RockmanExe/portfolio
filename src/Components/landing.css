@@ -1,4 +1,35 @@
-.bleh {
-    border: 2px solid yellow;
-    /* margin-top: 250px; */
+.landing-container {
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display:flex;
+    justify-content: center;
+    height: 80vh;
+}
+
+.landing-content {
+    border-radius: 3px;
+    border: 2px solid black;
+    /* background-color: black;
+    opacity: 0.5; */
+    color:white;
+    font-size: 20px;
+    width:50%;
+    height: 50%;
+    /* text-align: center; */
+}
+
+.links {
+    
+    margin-top: 20px;
+}
+
+.linkedin-icon {
+    width:12%;
+    margin: 0px 15px;
+}
+
+.github-logo {
+    width:10%;
+    
 }
