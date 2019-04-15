@@ -1,25 +1,24 @@
 import React from 'react';
-import { Layout, Navigation, Header, Drawer } from 'react-mdl';
+import { Layout, Navigation, Header } from 'react-mdl';
 import { Link } from 'react-router-dom';
 import './nav.css'
 
 const Nav = () => {
     return (
-        <div className= "nav-container" style={{height: '300px', position: 'relative'}}>
+        <div className= "nav-container" style={{height: '70px', position: 'relative'}}>
             <Layout>
-                <Header transparent title="Adalberto May" style={{color: 'white'}}> 
+                <Header className="nav-bar" title={<Link style={{textDecoration: 'none', color: 'white'}} to= "/"> Adalberto May </Link>}>
                     <Navigation>
                         <Link to="/projects">Projects</Link>
-                        <Link to="/resume">Resume</Link>
-                        <Link to="/aboutme">About Me</Link>
-                        <Link to="/contact">Contact</Link>
+                        <Link to="/stats"> Stats</Link>
+                        <Link to="/aboutme">About/Contact</Link>
                     </Navigation>
                 </Header>
-                <Drawer title="Title">
+                {/* <Drawer title="Title">
                     <Navigation>
-                        <a href="#">Link</a>
+                        <a href="/">Home</a>
                     </Navigation>
-                </Drawer>
+                </Drawer> */}
             </Layout>
         </div>
             )

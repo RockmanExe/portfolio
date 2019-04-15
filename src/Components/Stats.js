@@ -4,7 +4,7 @@ const Resume  = () => {
 
     return (
         <div className= 'resume-container'>
-            Resume
+            Stats
         </div>
     )
     
