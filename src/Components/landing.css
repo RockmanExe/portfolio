@@ -5,43 +5,48 @@
     background: #2193b0;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
     height: 100%;
     margin-top: -6px;
 }
 
 .landing-content {
     border-radius: 3px;
-    border: 2px solid black;
-    /* background-color: black;
-    opacity: 0.5; */
-    color:black;
+    border: 2px solid white;
+    color:white;
     font-size: 20px;
     width:50%;
-    height: 25%;
     margin-top: 50px;
-    /* text-align: center; */
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .avatar{
-    width:20%;
-    padding-top: 40px;
+    width:30%;
+    padding-top: 60px;
+}
+
+.skills-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill{
+    margin-left: 3px;
 }
 
 .links {
-    
     margin-top: 20px;
 }
 
 .linkedin-icon {
-    width:12%;
+    width:72px;
     margin: 0px 15px;
 }
 
 .github-logo {
-    width:10%;
+    width:60px;
     
 }

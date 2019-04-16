@@ -1,0 +1,60 @@
+
+.stats-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.stats-content{
+    display: flex;
+
+}
+
+.subjects {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.learning-container {
+    margin: 15px 0px 0px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.progress-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8px 0px 0px 0px;
+}
+
+.mobile {
+    display: none;
+}
+
+li{
+    margin: 5px 0px;
+}
+
+
+/* /////// Mobile view /////// */
+
+@media (max-width: 892px) {
+
+    .stats-content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .desktop{
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+}

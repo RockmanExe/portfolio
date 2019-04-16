@@ -7,14 +7,21 @@ const Landing  = () => {
 
     return (
         <div className= 'landing-container'>
-            <img className="avatar" src="https://cdn1.iconfinder.com/data/icons/main-ui-elements-with-colour-bg/512/male_avatar-512.png" alt="react-logo"/> 
+            <img className="avatar" src="https://massdrop-s3.imgix.net/product-images/massdrop-ctrl-mechanical-keyboard/FP/wl3xNbrbQkOgSzRByOtY_AI7B1490-copy-pc.jpg?auto=format&fm=jpg&fit=crop&w=955&bg=f0f0f0&dpr=1" alt="react-logo"/> 
             <div className= "landing-content">
-                <h2 className = "title">
+                <h3 className = "title">
                     Full Stack Software Developer
-                </h2>
-                
-                <div className= 'skills'>
-                    Html/CSS | React | Javascript | React-Redux | Node.js | Express | Sqlite3 | Python | Django | Spanish 
+                </h3>
+                <div className= 'skills-div'>
+                    <span className="skill">React |</span>
+                    <span className="skill">Javascript |</span>
+                    <span className="skill">React-Redux |</span>
+                    <span className="skill">Html/CSS |</span>
+                    <span className="skill">Node.js |</span>
+                    <span className="skill">Sqlite3 |</span>
+                    <span className="skill">Python |</span>
+                    <span className="skill">Django |</span>
+                    <span className="skill">Spanish |</span>
                 </div>
                 <div className='links'>
                     <a href= "https://github.com/RockmanExe" target="_blank" rel="noopener noreferrer">
