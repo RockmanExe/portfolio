@@ -1,15 +1,16 @@
 
 .project-container {
-    height: 100%;
     
-    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 20px;
 }
 
-.project-one {
+.project {
     margin: 20px;
-    
+}
+
+.card {
+    width:100%;
 }

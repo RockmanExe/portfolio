@@ -66,7 +66,7 @@ const Resume  = () => {
                         <li>React Native</li>
                         <li>Angular</li>
                         <li>Unity</li>
-                        <li>Improve on all of the <span className="desktop">above</span> <span className="mobile">below</span></li>
+                        <li>Improve on all of the above</li>
                     </div>
                 </div>
             </div>

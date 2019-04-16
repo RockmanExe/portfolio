@@ -11,6 +11,13 @@
 
 }
 
+.progress-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+}
+
 .subjects {
     display: flex;
     flex-direction: column;
@@ -18,17 +25,21 @@
 }
 
 .learning-container {
-    margin: 15px 0px 0px 25px;
+    margin: 0px 0px 0px 25px;
+    padding-top: 10px;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
+    width:150%;
 }
 
 .progress-bar{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 8px 0px 0px 0px;
+    margin: 10px 0px 5px 0px;
+    width: 60%;
 }
 
 .mobile {
@@ -46,7 +57,8 @@ li{
 
     .stats-content {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
+        align-items: center;
     }
 
     .desktop{
@@ -56,5 +68,14 @@ li{
     .mobile {
         display: block;
     }
+
+    .learning-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        width:50%;
+    }
+
 
 }
