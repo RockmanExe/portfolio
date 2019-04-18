@@ -21,6 +21,9 @@
 
 .about-paragraph{
     width:70%;
+    border: 2px solid #2193b0;
+    text-align: center;
+    padding:8px;
 }
 
 .contact-div {
@@ -59,7 +62,7 @@
     }
 
     .about-div {
-        margin: 330px 0px 50px 0px;
+        margin: 420px 0px 50px 0px;
     }
 
     .contact-div {
