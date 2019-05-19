@@ -1,4 +1,5 @@
 import React from 'react';
+// import selfie from '../selfie.jpg';
 import github from '../github-logo.png';
 import linkedin from '../linkedin-icon.png';
 import './landing.css';
@@ -7,21 +8,13 @@ const Landing  = () => {
 
     return (
         <div className= 'landing-container'>
-            <img className="avatar" src="https://massdrop-s3.imgix.net/product-images/massdrop-ctrl-mechanical-keyboard/FP/wl3xNbrbQkOgSzRByOtY_AI7B1490-copy-pc.jpg?auto=format&fm=jpg&fit=crop&w=955&bg=f0f0f0&dpr=1" alt="react-logo"/> 
+            {/* <div className="selfie-div"><img className="avatar" src= {"https://cdn2.vectorstock.com/i/1000x1000/23/81/default-avatar-profile-icon-vector-18942381.jpg"} alt="react-logo"/></div> */}
             <div className= "landing-content">
                 <h3 className = "title">
-                    Full Stack Software Developer
+                    <p style={{fontSize:'40px'}}>Adalberto May</p>Full Stack Software Developer
                 </h3>
                 <div className= 'skills-div'>
-                    <span className="skill">React |</span>
-                    <span className="skill">Javascript |</span>
-                    <span className="skill">React-Redux |</span>
-                    <span className="skill">Html/CSS |</span>
-                    <span className="skill">Node.js |</span>
-                    <span className="skill">Sqlite3 |</span>
-                    <span className="skill">Python |</span>
-                    <span className="skill">Django |</span>
-                    <span className="skill">Spanish |</span>
+                   I go by Alex for short. I should say stuff here
                 </div>
                 <div className='links'>
                     <a href= "https://github.com/RockmanExe" target="_blank" rel="noopener noreferrer">

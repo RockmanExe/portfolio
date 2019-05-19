@@ -2,9 +2,15 @@
 .project-container {
     
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-around;
     margin-top: 20px;
+}
+
+.projects-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .project {
