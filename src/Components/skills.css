@@ -2,7 +2,7 @@
 .skills-container {
     display: flex;
     flex-direction: column;
-    border-bottom: 1px solid #2193b0;
+    /* border-bottom: 1px solid #2193b0; */
     box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
     /* Need to learn more about box shadow */
     justify-content: center;
@@ -26,8 +26,16 @@
 }
 
 .see-more{
-    /* align-self: flex-end; */
+    align-self: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
+    width: 30%;
+    height: 40px;
+    color:wheat;
+    background-color: #2193b0;
+    border-radius: 10px;
 }
 
 .see-more-hidden{
@@ -35,7 +43,16 @@
 }
 
 .see-less{
+    align-self: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
+    width: 30%;
+    height: 40px;
+    color:wheat;
+    background-color: #2193b0;
+    border-radius: 10px;
 }
 
 .see-less-hidden{

@@ -1,6 +1,9 @@
 import React from 'react';
 import './projects.css';
+// import FairShare from '../fairshare.png';
+import './projects.css';
 import { Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+// import { url } from 'inspector';
 
 const Projects  = () => {
 
@@ -31,7 +34,7 @@ const Projects  = () => {
 
             <div className="project">
                 <Card shadow={0} style={{width: '300px', margin: 'auto'}}>
-                    <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://fbcd.co/product-lg/72dee529da636fedbb8bce04f204f75d_resize.jpg) center / cover'}}></CardTitle>
+                    <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://files.slack.com/files-pri/T4JUEB3ME-FJGEU77M0/download/87fsi.png) center / cover'}}></CardTitle>
                     <CardTitle>FairShare</CardTitle>
                     <CardText>
                         An app to keep track of everyone's contributions in a living or workspace! Made with: React, Node, Redux, Sqlite3, Knex.js
@@ -65,6 +68,7 @@ const Projects  = () => {
                 </Card>
             </div>
             </div>
+            <button className="projects-button">Get in Contact</button>
         </div>
     )
     

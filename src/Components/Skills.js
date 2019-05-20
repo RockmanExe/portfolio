@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './skills.css';
-import { Card,
-    //  CardTitle, CardText, CardActions, Button, CardMenu, IconButton 
-    } from 'react-mdl';
+import { Card, CardTitle, CardText} from 'react-mdl';
 
 class Skills extends Component {
     constructor() {
@@ -95,6 +93,21 @@ class Skills extends Component {
                 :"see-less-hidden"}>
                 ...See Less
             </h5>
+            <div className="project">
+                <Card shadow={0} style={{width: '300px', margin: 'auto'}}>
+                    <CardTitle style={{color: 'white', height: '176px', background: 'url(https://www.success.com/wp-content/uploads/legacy/sites/default/files/main/articles/waystobecomearelentlesslearner.jpg) center / cover'}}></CardTitle>
+                    <CardText>
+                        Here's a list of skills I plan on learning next:
+                        <ul>
+                            <li>Angular</li>
+                            <li>React Hooks</li>
+                            <li>React Native</li>
+                            <li>Unity</li>
+                            <li>Improve on all of the above</li>
+                        </ul>
+                    </CardText>
+                </Card>
+            </div>
 
             <span style={{fontSize:'20px', margin: '20px'}}>If it has good documentation, I can learn it!</span>
             <button className="button">See some of my recent work</button>
