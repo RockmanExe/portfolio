@@ -14,6 +14,10 @@
     
 }
 
+#contact{
+    scroll-behavior: smooth;
+}
+
 .contact-form{
     display: flex;
     /* flex-direction: column; */
