@@ -1,5 +1,5 @@
 import React from 'react';
-import selfie from '../selfie.jpg';
+// import selfie from '../selfie.jpg';
 import './about.css';
 
 const About  = () => {
@@ -8,8 +8,7 @@ const About  = () => {
         <div className= 'page-container'>
             <div className= "about-div">
                 <h3> Adalberto May</h3>
-                <img className="selfie-container" src= {selfie} alt="selfie" />
-                <span className="about-paragraph"> Hello to those reading! My name is Adalberto but I go by Alex, and I'm currently 26. I have been a student all of my life, whether it was public school, electrical engineering in college and now recently a Lambda student hoping to get into the world of software development, I just love to learn! When I'm not coding, I like to play games and watch some NBA and NFL games. I'm pretty laid back and, although quiet at first, I tend to get along with everyone! </span>
+                <span className="about-paragraph">  bleh </span>
             </div>
             <div className= "contact-div">
                 <h3> Contact Me</h3>

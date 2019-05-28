@@ -1,0 +1,75 @@
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    /* border-bottom: 1px solid #2193b0; */
+    box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    /* Need to learn more about box shadow */
+    justify-content: center;
+    padding: 50px 0px;
+
+     
+}
+
+.skill-cards-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-cards-2-hidden{
+    display:none;
+}
+
+.skill-cards-2-display{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.see-more{
+    align-self: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 30%;
+    height: 40px;
+    color:white;
+    background-color: #2193b0;
+    border-radius: 10px;
+}
+
+.see-more-hidden{
+    display: none;
+}
+
+.see-less{
+    align-self: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 30%;
+    height: 40px;
+    color:white;
+    background-color: #2193b0;
+    border-radius: 10px;
+}
+
+.see-less-hidden{
+    display: none;
+}
+
+.button{
+    width:360px;
+    height: 80px;
+    align-self: center;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #2193b0;
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
