@@ -2,13 +2,13 @@ import React from 'react';
 import './projects.css';
 // import FairShare from '../fairshare.png';
 import './projects.css';
-import { Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import { Card, CardTitle, CardText, CardActions, Button } from 'react-mdl';
 // import { url } from 'inspector';
 
 const Projects  = () => {
 
     return (
-        <div className= 'project-container'>
+        <div className= 'project-container' Id="projects">
             <h3>Some recent projects</h3>
             <div className="projects-div">
             <div className="project">
@@ -26,9 +26,7 @@ const Projects  = () => {
                             <Button colored>Github</Button>
                         </a>
                     </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
-                    </CardMenu>
+                  
                 </Card>
             </div>
 
@@ -47,28 +45,28 @@ const Projects  = () => {
                             <Button colored>Github</Button>
                         </a>
                     </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
-                    </CardMenu>
                 </Card>
             </div>
    
             <div className="project">
                 <Card shadow={0} style={{width: '300px', margin: 'auto'}}>
-                    <CardTitle style={{color: 'white', height: '176px', background: 'url(http://melodrive.com/blog/wp-content/uploads/2017/02/score.jpg) center / cover'}}>Mystery Project</CardTitle>
+                    <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://cdn.oceanwp.org/wp-content/uploads/2017/07/portfolio-image.png) center / cover'}}></CardTitle>
+                    <CardTitle>This Portfolio!</CardTitle>
                     <CardText>
-                        An idea in my head that I would like to start after the secret santa app. The image is a hint!
+                        This portfolio was made from scratch using React. Layout modeled after a template.
                     </CardText>
                     <CardActions border>
-                        <Button colored> Come back later!</Button> 
+                        <a href= "https://may-alex-portfolio.herokuapp.com/" target="_blank" rel="noopener noreferrer"> 
+                            <Button colored>Site</Button> 
+                        </a>
+                        <a href= "https://github.com/RockmanExe/portfolio" target="_blank" rel="noopener noreferrer">
+                            <Button colored>Github</Button>
+                        </a>
                     </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
-                    </CardMenu>
                 </Card>
             </div>
             </div>
-            <button className="projects-button">Get in Contact</button>
+            <a href="#contact"><button className="projects-button">Get in Contact</button></a>
         </div>
     )
     

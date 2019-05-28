@@ -6,6 +6,8 @@
     box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
     /* Need to learn more about box shadow */
     justify-content: center;
+    padding: 50px 0px;
+
      
 }
 
@@ -33,7 +35,7 @@
     cursor: pointer;
     width: 30%;
     height: 40px;
-    color:wheat;
+    color:white;
     background-color: #2193b0;
     border-radius: 10px;
 }
@@ -50,7 +52,7 @@
     cursor: pointer;
     width: 30%;
     height: 40px;
-    color:wheat;
+    color:white;
     background-color: #2193b0;
     border-radius: 10px;
 }
@@ -67,7 +69,7 @@
     border-radius: 10px;
     background-color: #2193b0;
     cursor: pointer;
-    color: wheat;
+    color: white;
     font-weight: 700;
     margin-bottom: 60px;
 }

@@ -19,7 +19,7 @@ class Skills extends Component {
 
     render() {
     return (
-        <div className= "skills-container">
+        <div className= "skills-container" Id="skills">
             <div className="skills-header">
                 <h3>Skills</h3>
                 {/* <div style= {{fontSize:'20px'}}>An Ever Growing List!</div> */}
@@ -110,7 +110,7 @@ class Skills extends Component {
             </div>
 
             <span style={{fontSize:'20px', margin: '20px'}}>If it has good documentation, I can learn it!</span>
-            <button className="button">See some of my recent work</button>
+            <a href="#projects"> <button className="button">See some of my recent work</button> </a>
         </div>
     )
     }

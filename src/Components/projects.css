@@ -6,7 +6,8 @@
     justify-content: space-around;
     margin-top: 20px;
     box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
-   
+    padding: 50px 0px;
+
 }
 
 .projects-div{
@@ -31,7 +32,7 @@
     border-radius: 10px;
     background-color: #2193b0;
     cursor: pointer;
-    color: wheat;
+    color: white;
     font-weight: 700;
     margin: 60px;
 }

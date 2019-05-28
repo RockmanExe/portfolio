@@ -14,14 +14,20 @@ import './App.css';
 
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.projectstRef = React.createRef();
+    this.skillsRef = React.createRef();
+    this.contactRef = React.createRef();
+  }
   render() {
     return (
       <div className="App">
         <Nav />
         <Landing />
-        <Skills />
-        <Projects />
-        <Contact />
+        <Skills ref={this.skillsRef}/>
+        <Projects ref={this.projectsRef} />
+        <Contact  ref={this.contactRef}/>
         {/* <Stats />
         <About /> */}
       </div>

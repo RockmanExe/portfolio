@@ -2,11 +2,11 @@
 .contact-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
-    border:2px solid black;
     margin: 50px 0px 0px 0px;
-    height: 500px;
+    padding: 50px 0px;
+    height: 1000px;
     
     background-color: #303030;
     color: #999;
@@ -23,29 +23,40 @@
 }
 
 .name-input{
-    width:45%;
-    margin:0px 5px 0px 10px;
-    height: 35px;
+    width:47%;
+    /* margin:0px 5px 0px 10px; */
+    height: 40px;
     border-radius: 5px;
     background: #282828;
     color: #bbb;
 }
 
 .email-input{
-    width:45%;
-    margin: 0px 10px 0px 5px;
-    height: 35px;
+    width:47%;
+    /* margin: 0px 0px 0px 60px; */
+    height: 40px;
     border-radius: 5px;
     background: #282828;
     color: #bbb;
+    
+}
+
+.form-top{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px 0px 40px 0px;
 }
 
 .subject-input{
     width:100%;
-    height: 35px;
+    height: 40px;
     border-radius: 5px;
     background: #282828;
     color: #bbb;
+    margin:0px 0px 40px 0px;
+
 }
 
 .message-input {
@@ -54,9 +65,91 @@
     height: 200px;
     background: #282828;
     color: #bbb;
-    
+    margin:0px 0px 100px 0px;
+
 }
 
+.clear-button{
+    width:160px;
+    height: 60px;
+    transition: background-color .2s ease-in-out;
+    -webkit-appearance: none;
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 8px;
+    text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    background-color: #444;
+    box-shadow: inset 0px 0px 0px 1px #242424, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.2);
+    font-size: 1.1em;
+}
+
+.form-bottom{
+    margin:0px 0px 10px 0px;
+}
+
+.submit-button{
+    width:160px;
+    height: 60px;
+    transition: background-color .2s ease-in-out;
+    -webkit-appearance: none;
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 8px;
+    text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
+    background-color: #43B3E0;
+    font-size: 1.1em;
+    margin:0px 0px 0px 30px;
+}
+
+.line-break{
+    border: 0;
+    border-top: solid 1px #444;
+    border-top-color: rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
+    height: 1px;
+    margin: 3em 0;
+    width:50%;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.links :hover{
+    border:2px solid green;
+}
+.linkedin-icon {
+    width:72px;
+    margin: 0px 15px;
+}
+
+.github-logo {
+    width:60px;
+    
+}
+.github-logo ::hover{
+    border:2px solid red;
+}
+
+
+
+
+/* ///// old styles */
 .stats-content{
     display: flex;
 
