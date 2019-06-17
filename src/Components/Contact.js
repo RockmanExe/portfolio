@@ -3,7 +3,7 @@ import github from '../github-logo.png';
 import linkedin from '../linkedin-icon.png';
 import './contact.css'
 
-class Contact  extends Component {
+class Contact extends Component {
     constructor(props) {
         super(props);
         this.state = {
