@@ -50,19 +50,25 @@ class Contact extends Component {
             </div>
             <form className="contact-form" id="contact-form">
                <div className="form-top">
+
+                <input 
+                    type="hidden" 
+                    name="contact_number"
+                />
+
                <input 
                   type="text"
                   placeholder="   Name"
-                  name="name"
+                  name="user_name"
                   className="name-input"
                   value={this.state.name}
                   onChange={this.handleChanges}      
                
                />
                <input 
-                  type="text"
+                  type="email"
                   placeholder="   Email"
-                  name="email"
+                  name="user_email"
                   className="email-input"
                   value={this.state.email}
                   onChange={this.handleChanges}      
@@ -85,12 +91,20 @@ class Contact extends Component {
                   value={this.state.message}
                   onChange={this.handleChanges} 
                />
-               
+                <div className="form-bottom">
+                    <button onClick={this.resetForm} className="clear-button"> Clear Form</button>
+
+                    <input 
+                        type="submit"
+                        value="Send"
+                        className="submit-button"
+                    />
+                </div>
             </form>
-            <div className="form-bottom">
+            {/* <div className="form-bottom">
                <button onClick={this.resetForm} className="clear-button"> Clear Form</button>
                <button onClick={this.handleToggle} className="submit-button">Send Message</button>
-            </div>
+            </div> */}
             <div className="line-break">
                 <h4 style= {{color:"white"}}>Find me on...</h4>
                 
