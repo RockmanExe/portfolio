@@ -61,7 +61,7 @@ class Contact extends Component {
                   placeholder="   Name"
                   name="user_name"
                   className="name-input"
-                  value={this.state.name}
+                  value={this.state.user_name}
                   onChange={this.handleChanges}      
                
                />
@@ -70,7 +70,7 @@ class Contact extends Component {
                   placeholder="   Email"
                   name="user_email"
                   className="email-input"
-                  value={this.state.email}
+                  value={this.state.user_email}
                   onChange={this.handleChanges}      
                
                />
