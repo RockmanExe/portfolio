@@ -22,8 +22,8 @@ class Contact extends Component {
 
     resetForm = (e) => {
         this.setState({
-            name: "",
-            email: "",
+            user_name: "",
+            user_email: "",
             subject: "",
             message: ""
         })
