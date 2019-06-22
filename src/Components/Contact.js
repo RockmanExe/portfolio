@@ -7,10 +7,10 @@ class Contact extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            name: "",
-            email: "",
+            user_name: "",
+            user_email: "",
             subject: "",
-            message: "FEATURE NOT YET FUNCTIONAL",
+            message: "",
             toggleModal:false
         };
         
@@ -25,7 +25,7 @@ class Contact extends Component {
             name: "",
             email: "",
             subject: "",
-            message: "FEATURE NOT YET FUNCTIONAL"
+            message: ""
         })
     }
 
@@ -44,7 +44,7 @@ class Contact extends Component {
                 ? 'modal-display'
                 : 'modal-hidden'
             }>
-                <h4>This feature is not yet functional, this custom modal will update once it works!</h4>
+                <h4>Message Sent! I will reply when I get the chance.</h4>
                 <h5>Thank you</h5>
                 <button className="modal-close" onClick={this.handleToggle}>Close</button>
             </div>
@@ -98,13 +98,11 @@ class Contact extends Component {
                         type="submit"
                         value="Send"
                         className="submit-button"
+                        onClick={this.handleToggle}
                     />
                 </div>
             </form>
-            {/* <div className="form-bottom">
-               <button onClick={this.resetForm} className="clear-button"> Clear Form</button>
-               <button onClick={this.handleToggle} className="submit-button">Send Message</button>
-            </div> */}
+           
             <div className="line-break">
                 <h4 style= {{color:"white"}}>Find me on...</h4>
                 
