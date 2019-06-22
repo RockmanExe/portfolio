@@ -85,6 +85,7 @@ class Contact extends Component {
                
                />
                <textarea 
+                  type="text"
                   name="message"
                   placeholder="  Message"
                   className="message-input"
