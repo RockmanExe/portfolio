@@ -102,20 +102,40 @@ class Contact extends Component {
                         onClick={this.handleToggle}
                     />
                 </div> */}
-                <label>subject</label>
-<input type="text" name="subject" />
-<label>contact_number</label>
-<input type="text" name="contact_number" />
-<label>user_name</label>
-<input type="text" name="user_name" />
-<label>user_email</label>
-<input type="text" name="user_email" />
-<label>message</label>
-                <input type="text" name="message" />
+                <div className="form-top">
+                    <input 
+                        type="text" 
+                        name="user_name"
+                        className="name-input"
+                        placeholder="Name" 
+                    />
                 
-                <button>
-                    Send
-                </button>
+                    <input 
+                        type="text" 
+                       name="user_email" 
+                        className="email-input"
+                        placeholder="Email" 
+                    />
+                </div>
+
+                <input 
+                    type="text" 
+                    name="subject"
+                    placeholder="subject"
+                    className="subject-input"
+                />
+                
+                <textarea
+                    type="text" 
+                    name="message"
+                    className="message-input" 
+                    placeholder="Message" 
+                />
+
+                <div className="form-bottom">
+                    <button onClick={this.resetForm} className="clear-button"> Clear Form</button>
+                    <button className="submit-button"> Send</button>
+                </div>
             </form>
            
             <div className="line-break">
