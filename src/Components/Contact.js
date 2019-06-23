@@ -49,7 +49,7 @@ class Contact extends Component {
                 <button className="modal-close" onClick={this.handleToggle}>Close</button>
             </div>
             <form className="contact-form" id="contact-form">
-               {/* <div className="form-top">
+               <div className="form-top">
 
                 <input 
                     type="hidden" 
@@ -101,8 +101,9 @@ class Contact extends Component {
                         className="submit-button"
                         onClick={this.handleToggle}
                     />
-                </div> */}
-                <div className="form-top">
+                </div>
+            </form>
+                {/* <div className="form-top">
                     <input 
                         type="text" 
                         name="user_name"
@@ -136,7 +137,7 @@ class Contact extends Component {
                     <button onClick={this.resetForm} className="clear-button"> Clear Form</button>
                     <input type="submit" value="Send" className="submit-button" Send/>
                 </div>
-            </form>
+            </form> */}
            
             <div className="line-break">
                 <h4 style= {{color:"white"}}>Find me on...</h4>
