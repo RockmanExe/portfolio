@@ -71,7 +71,7 @@
     height: 200px;
     background: #282828;
     color: #bbb;
-    margin:0px 0px 100px 0px;
+    margin:0px 0px 70px 0px;
 
 }
 
@@ -94,10 +94,14 @@
     background-color: #444;
     box-shadow: inset 0px 0px 0px 1px #242424, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.2);
     font-size: 1.1em;
+    margin:10px 0px 10px 0px;
 }
 
 .form-bottom{
+    display: flex;
+    justify-content: space-between;
     margin:0px 0px 10px 0px;
+    width:350px;
 }
 
 .submit-button{
@@ -119,7 +123,7 @@
     box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
     background-color: #43B3E0;
     font-size: 1.1em;
-    margin:0px 0px 0px 30px;
+    margin:10px 0px 10px 0px;
 }
 
 .line-break{
@@ -136,9 +140,6 @@
     margin-top: 20px;
 }
 
-/* .links :hover{
-    border:2px solid green;
-} */
 
 .linkedin-icon {
     width:72px;
@@ -150,9 +151,6 @@
     
 }
 
-/* .github-logo ::hover{
-    border:2px solid red;
-} */
 
 .modal-display{
     display: block;
@@ -183,38 +181,16 @@
 
 
 
-/* ///// old styles */
-.stats-content{
-    display: flex;
-
-}
-
-
 /* /////// Mobile view /////// */
 
-@media (max-width: 892px) {
+@media (max-width: 530px) {
 
-    .stats-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .desktop{
-        display: none;
-    }
-
-    .mobile {
-        display: block;
-    }
-
-    .learning-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 20px;
-        width:50%;
-    }
+  .form-bottom{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
 
 
 }

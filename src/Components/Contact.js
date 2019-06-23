@@ -31,7 +31,7 @@ class Contact extends Component {
 
     handleToggle = () => {
         this.setState({toggleModal:!this.state.toggleModal})
-        // this.resetForm();
+        setTimeout(this.resetForm, 2000);
     };
 
     render() {
@@ -44,7 +44,7 @@ class Contact extends Component {
                 ? 'modal-display'
                 : 'modal-hidden'
             }>
-                <h4>Message Sent! I will reply when I get the chance.</h4>
+                <h4>Message Sent! I will reply to you soon.</h4>
                 <h5>Thank you</h5>
                 <button className="modal-close" onClick={this.handleToggle}>Close</button>
             </div>
@@ -58,7 +58,7 @@ class Contact extends Component {
 
                <input 
                   type="text"
-                  placeholder="   Name"
+                  placeholder=" Name"
                   name="user_name"
                   className="name-input"
                   value={this.state.user_name}
@@ -67,7 +67,7 @@ class Contact extends Component {
                />
                <input 
                   type="email"
-                  placeholder="   Email"
+                  placeholder=" Email"
                   name="user_email"
                   className="email-input"
                   value={this.state.user_email}
@@ -77,7 +77,7 @@ class Contact extends Component {
                </div>
                <input 
                   type="text"
-                  placeholder="   Subject"
+                  placeholder=" Subject"
                   name="subject"
                   className="subject-input"
                   value={this.state.subject}
