@@ -134,7 +134,7 @@ class Contact extends Component {
 
                 <div className="form-bottom">
                     <button onClick={this.resetForm} className="clear-button"> Clear Form</button>
-                    <button className="submit-button"> Send</button>
+                    <button type="submit" value="Send" className="submit-button"> Send</button>
                 </div>
             </form>
            
