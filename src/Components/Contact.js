@@ -31,7 +31,7 @@ class Contact extends Component {
 
     handleToggle = () => {
         this.setState({toggleModal:!this.state.toggleModal})
-        this.resetForm();
+        // this.resetForm();
     };
 
     render() {
