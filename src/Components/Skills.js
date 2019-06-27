@@ -99,6 +99,8 @@ class Skills extends Component {
                     <CardText>
                         Here's a list of skills I plan on learning next:
                         <ul>
+                            <li>PHP</li>
+                            <li>C#</li>
                             <li>Angular</li>
                             <li>React Hooks</li>
                             <li>React Native</li>
