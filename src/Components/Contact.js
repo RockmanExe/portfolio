@@ -103,41 +103,6 @@ class Contact extends Component {
                     />
                 </div>
             </form>
-                {/* <div className="form-top">
-                    <input 
-                        type="text" 
-                        name="user_name"
-                        className="name-input"
-                        placeholder="Name" 
-                    />
-                
-                    <input 
-                        type="text" 
-                       name="user_email" 
-                        className="email-input"
-                        placeholder="Email" 
-                    />
-                </div>
-
-                <input 
-                    type="text" 
-                    name="subject"
-                    placeholder="subject"
-                    className="subject-input"
-                />
-                
-                <textarea
-                    type="text" 
-                    name="message"
-                    className="message-input" 
-                    placeholder="Message" 
-                />
-
-                <div className="form-bottom">
-                    <button onClick={this.resetForm} className="clear-button"> Clear Form</button>
-                    <input type="submit" value="Send" className="submit-button" Send/>
-                </div>
-            </form> */}
            
             <div className="line-break">
                 <h4 style= {{color:"white"}}>Find me on...</h4>
